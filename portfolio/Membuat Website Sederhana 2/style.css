@@ -1,0 +1,158 @@
+
+/* style */
+body {
+    color:white;
+    background-image: url(img/19742.jpg);
+    background-size: 500px;
+    font: 16px/28px arial, sans-serif;
+}
+
+.topbar {
+    background-color: #555555;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+    z-index: 99999;
+    padding: 5px;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-bottom: 5px solid white;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.topbar a:hover {
+    color: cyan;
+}
+
+.topbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -100p;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.container {
+    background-color: #555555;
+    width: 960px;
+    margin: 65px auto -10px;
+    padding: 5px;
+    position: relative;
+}
+
+.twitter {
+    background-image: url(img/twitter23.png);
+    width: 300px;
+    height: 225px;
+    display: inline-block;
+    position: absolute;
+    top: -70px;
+    right: -100px;
+}
+.header {
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    margin-left: 8px;
+    font-size: 40px;
+}
+
+div.header ul {
+    margin-left: -30px;
+}
+div .header ul li {
+    display: inline-block;  
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+div .header a {
+    color: white;
+    text-decoration: none;
+}
+
+div .header a:hover {
+    color: cyan;
+}
+
+.hero {
+    background-image: url(img/gambarwebsite.png);
+    background-size: cover;
+    height: 295px;
+    background-position: 0 -100px;
+}
+
+.main  { 
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+.main .penulis {
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+.main .penulis a {
+    color: white;
+    text-decoration: none;
+}
+
+.main .penulis a:hover {
+    color:cyan;
+}
+
+.main h2 {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.sidebar {
+    margin-top: 20px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
+}
+.sidebar img {
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar h3 {
+    margin-left: -10px;
+}
+
+.sidebar ul li {
+    margin-left: -29px;
+}
+
+.footer .copy {
+    text-align: center;
+    background-color: #2e282855;
+    padding: 5px;
+    margin: 20px
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
